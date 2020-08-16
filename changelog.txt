@@ -1,0 +1,327 @@
+VERSION	3.1.0.3
+DATE	26/10/2016
+CHANGES
+	* New version for Moodle 3.1.x - same functionality as 2.2.7.21
+--------------------------------------------------------------------------------
+VERSION	3.1.0.7 - 20161229.1455
+DATE	29/12/2016
+CHANGES
+	* Finalizing RC version fo academic
+	* Supports 2.7 and onward...
+--------------------------------------------------------------------------------
+VERSION	3.1.0.9 - 20170103.1325
+DATE	03/01/2017
+CHANGES
+	* Fixing special case for police/iaa
+	* Fixing log writings (missing paramters and text)
+	* Pre 3.1 hack for 'course_update_section' (not exists before)
+--------------------------------------------------------------------------------
+VERSION	3.1.0.11 - 20170104.1235
+DATE	04/01/2017
+CHANGES
+	* Adding new page to update old style assignments
+--------------------------------------------------------------------------------
+VERSION	3.1.0.15 - 20170110.1025
+DATE	10/01/2017
+CHANGES
+	* Fixing login both from Michlol and directly
+--------------------------------------------------------------------------------
+VERSION	3.1.0.17 - 20170116.1025
+DATE	16/01/2017
+CHANGES
+	* Fixing time zone issues
+--------------------------------------------------------------------------------
+VERSION	3.1.0.19 - 2017011700.1335
+DATE	17/01/2017
+CHANGES
+	* Do not return moodle's final (course) grade to michlol, only for assignments...
+	* Extend version number to format YYYYMMDD00.HHmm
+--------------------------------------------------------------------------------
+VERSION	3.1.0.21 - 2017011800.1225
+CHANGES
+	* Fixing enrolment when using different than 'manual'
+	* Dropping date from changelog
+--------------------------------------------------------------------------------
+VERSION	3.1.0.23 - 2017011800.1735
+CHANGES
+	* Fixing session management when client runs in batch mode...
+--------------------------------------------------------------------------------
+VERSION	3.1.0.25 - 2017013100.0915
+CHANGES
+	* Restoring grouping creation for users...
+--------------------------------------------------------------------------------
+VERSION	3.1.0.27 - 2017020100.1105
+CHANGES
+	* Fixing broken backward compatibility for multiply gorup memberships in same course...
+--------------------------------------------------------------------------------
+VERSION	3.1.0.29 - 2017020800.1155
+CHANGES
+	* Fix grade return on automatic grading (quiz completition)
+	* Deleteing link to michlol when deleting asignment/quiz
+--------------------------------------------------------------------------------
+VERSION	3.1.0.31 - 2017022000.1225
+CHANGES
+	* Fix PHP constructor problem
+	* Fix login.php - no output before user authentication (cause a problem with session creation)
+--------------------------------------------------------------------------------
+VERSION	3.1.0.33 - 2017022200.1005
+CHANGES
+	* Fix PHP Notes on unset variables (observer.php)
+--------------------------------------------------------------------------------
+VERSION	3.1.0.35 - 2017030500.1045
+CHANGES
+	* Removed *quiz_attempt_submitted* event handler. It only creates a duplicate...
+--------------------------------------------------------------------------------
+VERSION	3.1.0.37 - 2017032700.1015
+CHANGES
+	* Update short name too on key update...
+--------------------------------------------------------------------------------
+VERSION	3.1.0.39 - 2017040200.1415
+CHANGES
+	* Rashat - Manage knowledge tree...
+--------------------------------------------------------------------------------
+VERSION	3.1.0.41 - 2017040400.1625
+CHANGES
+	* Rashat - Login directly to resource in knowledge tree...
+--------------------------------------------------------------------------------
+VERSION	3.1.0.43 - 2017051700.1055
+CHANGES
+	* Login from Michlol - enable without authentication...
+	* Set maturity to STABLE
+--------------------------------------------------------------------------------
+VERSION	3.1.0.45 - 2017060700.0915
+CHANGES
+	* Add option to set enrolment start and end times...
+--------------------------------------------------------------------------------
+VERSION	3.1.0.47 - 2017072600.1145
+CHANGES
+	* Add more details (reason of failure) for login page, when comming from Michlol, including record in the log...
+--------------------------------------------------------------------------------
+VERSION	3.1.0.49 - 2017080700.1015
+CHANGES
+	* Fit code to work with PHP 7.1 too
+--------------------------------------------------------------------------------
+VERSION	3.1.0.51 - 2017101700.1125
+CHANGES
+	* More fixes to PHP 7 (7.1.10 and onward)
+--------------------------------------------------------------------------------
+VERSION	3.1.0.53 - 2017103100.1025
+CHANGES
+	* Fix creation of syllabus link even 1109 is NO and there is no URL
+--------------------------------------------------------------------------------
+VERSION	3.1.0.55 - 2017110500.1415
+CHANGES
+	* Expose URL update method (course_update_syllabus) to public access
+--------------------------------------------------------------------------------
+VERSION	3.1.0.57 - 2017111200.1615
+CHANGES
+	* Rashat - in case of end date on exam it will be set in moodle too
+--------------------------------------------------------------------------------
+VERSION	3.1.0.59 - 2017112800.1325
+CHANGES
+	* Correctly duplicate modules from old tik yesod to new tik yesod or to machzor 
+	  (fix for moodle 3.3 and onward)
+--------------------------------------------------------------------------------
+VERSION	3.1.0.61 - 2018011700.1215
+CHANGES
+	* Add option to create placeholder for SCORM 
+--------------------------------------------------------------------------------
+VERSION	3.1.0.63 - 2018012100.1015
+CHANGES
+	* FIX duplicate SCORM error 
+--------------------------------------------------------------------------------
+VERSION	3.1.0.65 - 2018020600.1415
+CHANGES
+	* FIX error when moodle decides to re-number section numbers 
+	  (after editing/deleting/addign sections or modules) - only for new items 
+--------------------------------------------------------------------------------
+VERSION	3.1.0.67 - 2018022000.1735
+CHANGES
+	* FIX error when copying from modula (missing open/close date)  
+	* FIX regression on identifying meeting that connected to modula (do not copy local resources)
+--------------------------------------------------------------------------------
+VERSION	3.1.0.69 - 2018022100.1015
+CHANGES
+	* FIX skip disconnected modules when copying  
+	* FIX date/time on exam of type SCORM
+--------------------------------------------------------------------------------
+VERSION	3.1.0.71 - 2018022700.1045 !!! NOT RELEASED EVER !!!
+CHANGES
+	* Rashat - new Read&Sign module  
+--------------------------------------------------------------------------------
+VERSION	3.1.0.73 - 2018022700.1155
+CHANGES
+	* FIX - no 'course_update_section' function before Moodle 3.1.x
+--------------------------------------------------------------------------------
+VERSION	3.1.0.75 - 2018030800.1015
+CHANGES
+	* Rashat - Replace knowledge-tree query with ws procedure...
+--------------------------------------------------------------------------------
+VERSION	3.1.0.77 - 2018031900.1125
+CHANGES
+	* New flag to prevent hiding courses during delete...
+--------------------------------------------------------------------------------
+VERSION	3.1.0.79 - 2018032000.1445
+CHANGES
+	* INTERNAL - fine tuning if knowledge tree building methods
+--------------------------------------------------------------------------------
+VERSION	3.1.0.81 - 2018032100.0715
+CHANGES
+	* Rashat - set start-time for new read&sign
+--------------------------------------------------------------------------------
+VERSION	3.1.0.83 - 2018032700.1215
+CHANGES
+	* Set proper section number in login
+--------------------------------------------------------------------------------
+VERSION	3.1.0.85 - 2018042900.1645
+CHANGES
+	* Do not try to copy modules that are old and disabled
+--------------------------------------------------------------------------------
+VERSION	3.1.0.87 - 2018050200.1555
+CHANGES
+	* New funtion to export exam data to Michlol
+--------------------------------------------------------------------------------
+VERSION	3.1.0.89 - 2018050700.1545
+CHANGES
+	* Show latest modules in knowledge tree at top (depends on settings)
+--------------------------------------------------------------------------------
+VERSION	3.1.0.91 - 2018050800.1015
+CHANGES
+	* Add current timestemp to course shortname when createing course for read & sign...
+--------------------------------------------------------------------------------
+VERSION	3.1.0.93 - 2018050900.1145
+CHANGES
+	* Add page to display info on components made by Rashim...
+--------------------------------------------------------------------------------
+VERSION	3.1.0.95 - 2018050900.1445
+CHANGES
+	* Add weight and max grade to exam export
+--------------------------------------------------------------------------------
+VERSION	3.1.0.97 - 2018051600.1645
+CHANGES
+	* Make latest branch flat
+--------------------------------------------------------------------------------
+VERSION	3.1.0.99 - 2018052700.1215
+CHANGES
+	* New settings for text of 'latest' branch
+--------------------------------------------------------------------------------
+VERSION	3.1.1.01 - 2018060600.1215
+CHANGES
+	* Add question behavior plugin to overview page
+--------------------------------------------------------------------------------
+VERSION	3.1.1.03 - 2018082000.1335
+CHANGES
+	* Sort latest entries in knowledge tree by entry date (newest first)
+--------------------------------------------------------------------------------
+VERSION	3.1.1.05 - 2018090400.1425
+CHANGES
+	* Fix HTML to XML encoding problems for bhn_print method
+--------------------------------------------------------------------------------
+VERSION	3.1.1.7 - 2018101000.1225
+CHANGES
+	* Fix version number
+	* Add Exam Aprove block to overview page
+--------------------------------------------------------------------------------
+VERSION	3.1.1.9 - 2018101800.1625
+CHANGES
+	* Add method to save answers from scanned exam
+--------------------------------------------------------------------------------
+VERSION	3.1.1.11 - 2018102300.1555
+CHANGES
+	* FIX - do not create quiz attempt as 'preview', otherwise it will not show
+--------------------------------------------------------------------------------
+VERSION	3.1.1.13 - 2018102400.1345
+CHANGES
+	* FIX - retriving the answers correctly from XML
+--------------------------------------------------------------------------------
+VERSION	3.1.1.15 - 2018102900.1345
+CHANGES
+	* FIX - block attempts above premitted count
+--------------------------------------------------------------------------------
+VERSION	3.1.1.17 - 2018112000.1255
+CHANGES
+	* Add new quiz editor (from local/rashim_quiz_ex) to overview page
+	* FIX - quiz export contains sections and description too
+--------------------------------------------------------------------------------
+VERSION	3.1.1.19 - 2018112200.1015
+CHANGES
+	* FIX - keep quiz sections in order when sending to Michlol to print
+--------------------------------------------------------------------------------
+VERSION	3.1.1.21 - 2018121100.1415
+CHANGES
+	* FIX - do not return grades via observer if the quiz extensions are installed
+--------------------------------------------------------------------------------
+VERSION	3.1.1.23 - 2019011400.1005
+CHANGES
+	* Add trace messages for exam export to check time
+--------------------------------------------------------------------------------
+VERSION	3.1.1.25 - 2019031700.1105
+CHANGES
+	* Check capability on ktree...
+--------------------------------------------------------------------------------
+VERSION	3.1.1.27 - 2019052300.1455
+CHANGES
+	* ktree - do not load duplicate nodes more than once
+--------------------------------------------------------------------------------
+VERSION	3.1.1.29 - 2019053000.1535
+CHANGES
+	* overview page - fix icon size
+--------------------------------------------------------------------------------
+VERSION	3.1.1.31 - 2019053000.1555
+CHANGES
+	* exam export - include images as base64
+--------------------------------------------------------------------------------
+VERSION	3.1.1.33 - 2019060200.0645
+CHANGES
+	* FIX exam export - images both from external source and local (MOODLE) storage
+--------------------------------------------------------------------------------
+VERSION	3.1.1.35 - 2019061600.1245
+CHANGES
+	* FIX - do not display deleted resources in kt
+--------------------------------------------------------------------------------
+VERSION	3.1.1.37 - 2019062500.1245
+CHANGES
+	* FIX - HTML entities in exam export
+	* Add images to answers too
+--------------------------------------------------------------------------------
+VERSION	3.1.1.39 - 2019062700.1345
+CHANGES
+	* Extend logging in send_grade method (observer.php) to trace SOAP problems
+	* Add SOAP block to summary page
+--------------------------------------------------------------------------------
+VERSION	3.1.1.41 - 2019070800.1625
+CHANGES
+	* Extend logging in send_grade method (observer.php) to trace SOAP problems
+	* Add SOAP block to summary page
+--------------------------------------------------------------------------------
+VERSION	3.1.1.43 - 2019080400.1015
+CHANGES
+	* FIX - extra data can update main user fields in MOODLE
+--------------------------------------------------------------------------------
+VERSION	3.1.1.45 - 2019090200.1545
+CHANGES
+	* FIX - Post 3.3 hack for assign.gradingduedate, that not allows NULL
+--------------------------------------------------------------------------------
+VERSION	3.1.1.47 - 2019102700.1115
+CHANGES
+	* NEW - Add recording of question update/delete events for propagation...
+--------------------------------------------------------------------------------
+VERSION	3.1.1.49 - 2019110500.1015
+CHANGES
+	* NEW - Enable forced course-format for tik-yesod and machzor...
+--------------------------------------------------------------------------------
+VERSION	3.1.1.51 - 2020013000.1515
+CHANGES
+	* FIX - Load assignment's feedback types default values too...
+--------------------------------------------------------------------------------
+VERSION	3.1.1.53 - 2020020400.1115
+CHANGES
+	* FIX - Michlol's login page to work with new MOODLE...
+--------------------------------------------------------------------------------
+VERSION	3.1.1.55 - 2020020400.1215
+CHANGES
+	* UPDATE - overview page...
+--------------------------------------------------------------------------------
+VERSION	3.1.1.57 - 2020021800.1015
+CHANGES
+	* UPDATE - update R&S creation...
